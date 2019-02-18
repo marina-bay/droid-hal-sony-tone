@@ -17,6 +17,10 @@
 %define installable_zip 1
 %define enable_kernel_update 1
 
+# from https://github.com/mer-hybris/droid-hal-hammerhead/blob/ca102d255f1b6f274e2768e8cbd4ad9c631890e9/droid-hal-hammerhead.spec#L12
+#define installable_zip 1
+#define enable_kernel_update 1
+
 %define pre_actions sudo update-java-alternatives -s java-1.8.0-openjdk-amd64
 
 %define straggler_files\
