@@ -37,6 +37,7 @@
     /cache\
     /vndservice_contexts\
     /verity_key\
+    /vendor\
 %{nil}
 
 # want adreno quirks is required for browser at least, and other subtle issues
